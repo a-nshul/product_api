@@ -1,8 +1,45 @@
-# Node.js
-node_modules/
-npm-debug.log
+# Node.js dependencies
+/node_modules/
+
+# Environment files
 .env
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+/dist
+/build
+/.next
+/.nuxt
+/.serverless
+/.vscode
+/.idea
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# OS files
 .DS_Store
-dist/
-build/
-.vercel
+Thumbs.db
+
+# IDE files
+/.vscode
+/.idea
+
+# Timestamps & temporary files
+*.tgz
+*.bak
+*.swp
+*.swo
+
+# Uploads folder (user-uploaded files)
+uploads/
